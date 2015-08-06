@@ -45,3 +45,17 @@ Let's talk simple data types:
 `char` is a simple character which is printed with `%c`, you must use them using single quotes.
 
 A `string` in C is actually an array of characters. You declare them using `char name[]`, you use them with double quotes and print them with `%s`.
+
+## Exercise 7
+
+In which we understand how C casts stuffs.
+
+We get introduced to the `long` type which is a huge ass number. Gets printed using `%ld`.
+
+Chars are actually numbers in C, that's why Zed creates a `\0` character, which is the number 0.
+
+To print a `%` sign you use a double `%%`.
+
+## Exercise 8
+
+Mostly related to the way C measures stuff byte-wise. `sizeof` seems handy for that.
